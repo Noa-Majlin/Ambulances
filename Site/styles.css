@@ -1,0 +1,460 @@
+@font-face {
+  font-family: 'baba-dots-fm';
+  src: url('Fonts/baba-dots-fm.woff') format('woff');
+}
+@font-face {
+  font-family: 'baba-outline-fm';
+  src: url('Fonts/baba-outline-fm.woff') format('woff');
+}
+@font-face {
+  font-family: 'baba-bold-fm';
+  src: url('Fonts/baba-bold-fm.woff') format('woff');
+}
+@font-face {
+  font-family: 'baba-shadow-fm';
+  src: url('Fonts/baba-shadow-fm.woff') format('woff');
+}
+
+@font-face{
+  font-family: 'South_v2-Black';
+  src: url('Fonts/South_v2-Black.woff');
+}
+@font-face{
+  font-family: 'South_v2-Medium';
+  src: url('Fonts/South_v2-Medium.woff');
+}
+
+@font-face{
+  font-family: 'South_v2-Regular';
+  src: url('Fonts/South_v2-Regular.woff');
+}
+
+@font-face{
+  font-family: 'South_v2-Thin';
+  src: url('Fonts/South_v2-Thin.woff');
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+audio{
+  display: inline-block;
+  margin-right: 45%;
+   }
+
+
+h1{
+	font-family: 'South_v2-Black';
+      font-size: 432%;
+      text-align: center;
+      letter-spacing: 5px;
+      line-height: 70px;
+      color:white;
+      word-spacing: 5px;
+}
+
+
+h2{
+    font-family: "South_v2-Black";
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin-top: 2px;
+    margin-bottom: 0;
+
+}
+
+h3{
+  font-family: 'South_v2-Black';
+      font-size: 700%;
+      text-align: center;
+      letter-spacing: 2px;
+            color:white;
+
+}
+
+h4{
+    font-family: "South_v2-Black";
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 2px;
+}
+
+h5{
+    font-family: "South_v2-Black";
+    font-size: 130.8px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 150px;
+    margin-right: 70px;
+}
+
+h6{
+      font-family: "South_v2-Thin";
+      font-size: 80px;
+      text-align: right;
+      letter-spacing: 1px;
+      line-height: 87px;
+      margin-top: 250px;
+      margin-bottom: 0;
+      color: white;
+}
+b{
+        font-family: "South_v2-Black";
+}
+
+#peoples{
+  width: 100%;
+  margin-bottom: 55%;
+}
+
+
+#peoplesleeping{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-right: 0px;
+}
+.Ambulance{
+    position: relative;
+   left: -400px;
+    bottom: 140px;
+    width: 200px;
+}
+
+#Buil{
+  position: absolute;
+  width: 50%;
+  left: 0px;
+  overflow: hidden; 
+  top:-100px;
+  z-index: 6;
+}
+#Buil1{
+  position: relative;
+  right:-20px;
+  top: -30px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+/*
+.opening{
+  width: 70%;
+  margin:15%;
+  margin-bottom: 20%;
+  margin-top: 15%;
+  z-index: 1;
+
+}
+*/
+.buildings{
+  width: 100%;
+  position: relative;
+  background-image: url("img/Backgroundstreet.png");
+}
+
+#noise{
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-family: 'South_v2-Medium';
+  font-size: 60px;
+  line-height: 65px;
+  text-align: right;
+  color: white;
+}
+#noise1{
+  margin-top: 100px;
+  padding-right: 30px;
+  align-self: flex-end;
+  font-size: 20px;
+  margin-bottom: auto 0;
+  color: white;
+}
+
+.noise2{
+    background-image: url("img/black2.png");
+    background-size: cover;
+}
+
+.apologize{
+  display: flex;
+  flex-direction: row;
+}
+
+#First .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.pigeon{
+  width: 40%;
+  margin-right: 0px;
+  margin-bottom: -230px;
+  margin-top: 300px;
+}
+
+
+.Opt{
+  width: 100%;
+  position: relative;
+}
+#toyambulance{
+  width: 45%;
+  margin-right: 25%;
+  display: flex;
+  flex-direction: row;
+}
+
+#one{
+    font-family: "frank-re-bold-aaa";
+    font-size: 200px;
+      margin: 0px auto;
+      line-height: 100px;
+      font-weight: 400;
+}
+
+.numbers{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+        margin-top: 100px;
+}
+
+#hearing{
+        margin-top: 200px;
+        margin-bottom: 200px;
+}
+
+.items{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+.scrolls{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 80px;
+  white-space: nowrap;
+  direction: rtl;
+}
+
+
+.police{
+/*  height: 100vh;
+  width: 400vw;
+  background-size: cover;
+  background-position: center;*/
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section3{
+  overflow: hidden;
+}
+
+#InIsrael{
+  margin-top: 200px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  font-family: 'South_v2-Regular';
+  font-size: 38.1px;
+
+}
+#InIsrael2{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 50%;
+    color: #DF2020;
+}
+
+#first{
+  margin-bottom: 100px;
+}
+
+#Yair{
+  rotate: 15deg;
+  width: 50%;
+}
+
+#village{
+  margin-top: 200px;
+  padding-left: 30px;
+  color: white;
+}
+
+p{
+	font-family: "open sans";
+  letter-spacing:1px ;
+  font-size: 20px;
+  font-weight: medium;
+}
+body{
+	background-image: url("img/BackgroundWhite.png");
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: right;
+	direction: rtl;
+  font-family: "open sans";
+  margin: 0px;
+
+}
+
+.section{
+  position: relative;
+  margin: 0px auto;
+}
+
+.container{
+  margin: 0px auto;
+  max-width: 1400px;
+  width: 100%;
+/*  padding: 30px;*/
+}
+
+.start{
+  justify-items: center;
+  width:70%;
+  height: 100vh;
+  margin:15%;
+  margin-bottom: 20%;
+  margin-top: 15%;
+  z-index: 1;
+
+}
+.section1{
+  background-image: url("img/FW_Schwrz_65.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.section2{
+  background-image: url("img/FW_Schwrz_65.jpg");
+  z-index: 3;
+  position: relative;
+}
+
+#streetsign{
+  width: 550%;
+  margin-top: 200px;
+  margin-right: 0px;
+
+}
+
+.kfar{
+  background-image: url("img/streetsign.png");
+    background-size: cover;
+    width: 1500px;
+    height: 900px;
+
+}
+
+.newspaper{
+  width: 110%;
+  margin-top: 0;
+  align-self: flex-end;
+  margin-left: 200px;
+  margin-right: -75px;
+}
+
+#Red{
+  color: #DF2020;
+}
+.Bibi{
+  width: 55%;
+  margin-right: 200px;
+}
+
+#onepara{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.col{
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+
+.last{
+  background-image: url("img/BackgroundRed.png");
+  background-size: cover;
+  width: 1500px;
+  height: 900px;
+}
+
+.col-12{
+  width: 100%;
+}
+
+.col-10{
+  width: 80%;
+}
+
+.col-8{
+  width:66%;
+}
+
+.col-6{
+  width: 50%;
+}
+
+.offset-6{
+  margin-right: 50%;
+}
+
+.col-4{
+  width: 33%;
+}
+
+.offset-4{
+  margin-right: 25%;
+}
+
+.col-3{
+  width:25%;
+}
+
+.col-2{
+  width: 16%;
+}
+.offset-2{
+  margin-right: 96%;
+}
+
+.offset-8{
+  margin-right: 66.6%;
+}
+.offset-10{
+  margin-right: 80%;
+}
+
